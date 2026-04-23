@@ -1,7 +1,7 @@
 # Pokedex Angular - Evidencia de despliegue (estudiante)
 
 ## Estudiante
-Juan David Lopez
+Gabriel Jose Buelvas Morales
 
 ## Descripcion del proyecto
 En este laboratorio desplegue una aplicacion frontend en Angular que consume la API publica de Pokemon (PokéAPI) para mostrar:
