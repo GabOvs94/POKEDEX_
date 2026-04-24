@@ -4,7 +4,7 @@
 23/04/2026
 
 ## Estudiante
-Juan David Lopez
+GABRIEL JOSE BUELVAS MORALES
 
 ## Contexto de la evidencia
 En esta evidencia documente el proceso real que segui para desplegar la aplicacion `pokedex-angular` en Azure Static Web Apps sin modificar el codigo fuerte de la aplicacion, cumpliendo los criterios del profesor.
@@ -42,13 +42,7 @@ Developer -> GitHub (main) -> GitHub Actions -> Azure Static Web Apps -> URL pub
 - Azure Static Web Apps (Plan Free).
 - GitHub Actions.
 - GitHub Secrets para el token de despliegue.
-- Dominio personalizado adquirido en `NAME.COM` usando correo institucional de la universidad.
 
-Secreto usado en el workflow:
-
-```bash
-AZURE_STATIC_WEB_APPS_API_TOKEN_BRAVE_WATER_0FE172B1E
-```
 
 ## Como cree la cuenta de Azure (caso real)
 No pude usar Azure for Students, entonces use el plan gratuito normal de Azure con mi tarjeta Nequi para activar la cuenta y los creditos promocionales.
@@ -78,9 +72,9 @@ Estos son los valores que configure en Azure Static Web Apps:
 - Tipo de recurso: `Static Web App`
 - Nombre: `pokedex-angular`
 - Plan: `Free`
-- Region: `East US 2`
+- Region: `Brazil`
 - Proveedor de codigo: `GitHub`
-- Repositorio: `juandavidlopez3004-svg/pokedex`
+- Repositorio: `https://github.com/GabOvs94/POKEDEX_.git`
 - Rama: `main`
 - Build preset: `Angular`
 - Output location: `dist/pokedex-angular`
@@ -96,14 +90,6 @@ Headers aplicados:
 - `X-Frame-Options`
 - `Referrer-Policy`
 - `Permissions-Policy`
-
-Tambien deje configurado fallback para rutas SPA:
-
-```bash
-"navigationFallback": {
-  "rewrite": "/index.html"
-}
-```
 
 ## Comandos exactos que use para desplegar
 
@@ -269,7 +255,7 @@ dist/pokedex-angular
 Si cambia en `angular.json`, actualizar tambien el workflow.
 
 ### C) Diferencia de version de Node
-Alinear local con CI (Node 18.x recomendado para este repo):
+Alinear local con CI (Node 20 recomendado para este repo):
 
 ```bash
 node --version
@@ -296,7 +282,7 @@ Si este comando falla, el problema no esta en Azure.
 URL final:
 
 ```bash
-https://www.jimuax.app
+https://icy-ocean-05d8fca0f.7.azurestaticapps.net/
 ```
 
 ### Validacion tecnica
