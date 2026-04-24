@@ -1,4 +1,4 @@
-# Pokedex Angular - Evidencia de despliegue (estudiante)
+# Pokedex Angular - Evidencia de despliegue
 
 ## Estudiante
 Gabriel Jose Buelvas Morales
@@ -36,7 +36,7 @@ Este proyecto me permitio practicar integracion de frontend con APIs, organizaci
 Antes de iniciar, valida que tengas instalado lo siguiente:
 
 - Git (2.30 o superior recomendado).
-- Node.js LTS 18.x (recomendado por el workflow CI).
+- Node.js LTS 20 (recomendado por el workflow CI).
 - npm (incluido con Node.js).
 - Angular CLI 14 (opcional global, porque tambien se puede ejecutar con `npx`).
 - Cuenta de GitHub.
@@ -75,7 +75,7 @@ https://portal.azure.com
 1. Clone el repositorio:
 
 ```bash
-git clone https://github.com/juandavidlopez3004-svg/pokedex.git
+git clone https://github.com/GabOvs94/POKEDEX_.git
 cd pokedex-angular
 ```
 
@@ -147,16 +147,15 @@ npm run build
 ## Evidencia del despliegue realizado
 
 - Recurso creado en Azure: `Static Web App`.
-- Repositorio conectado: `juandavidlopez3004-svg/pokedex`.
+- Repositorio conectado: `GabOvs94/POKEDEX_`.
 - Rama de despliegue: `main`.
 - Build de salida usado: `dist/pokedex-angular`.
-- Dominio personalizado configurado: `https://www.jimuax.app`.
-- Proveedor del dominio: `NAME.COM`.
-- Dominio adquirido con correo institucional de la universidad.
+- Dominio : `https://icy-ocean-05d8fca0f.7.azurestaticapps.net/`.
+- Proveedor del dominio: `AZURE`.
 - URL final obtenida:
 
 ```bash
-https://www.jimuax.app
+https://icy-ocean-05d8fca0f.7.azurestaticapps.net/
 ```
 
 ## Errores que tuve durante el despliegue
@@ -217,5 +216,5 @@ Durante todo el proceso no modifique el codigo fuerte (logica principal de la ap
 
 ## Recursos del proyecto
 
-- Repositorio: `https://github.com/juandavidlopez3004-svg/pokedex`
-- Aplicacion desplegada: `https://www.jimuax.app`
+- Repositorio: `https://github.com/GabOvs94/POKEDEX_.git`
+- Aplicacion desplegada: `https://icy-ocean-05d8fca0f.7.azurestaticapps.net/`
